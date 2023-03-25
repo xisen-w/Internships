@@ -1,0 +1,7 @@
+from bs4 import BeautifulSoup
+import requests
+
+url = "https://www.cancerresearchuk.org/about-cancer/find-a-clinical-trial/clinical-trials-search?populate=Breast%20cancer&f%5B0%5D=field_trial_status%3A4386"
+html_text = requests.get(url).text #Get a url
+print(html_text)
+

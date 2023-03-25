@@ -1,0 +1,27 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 READ ME - VANN WebScraper 1.0\
+\
+This web scraper is used for web scraping elements with a designated url. Considering that HTML elements are replaceable, if the webScraper is deployed in other websites, they should be changed by inspection of the websites. \
+\
+Program Design: Webscrape website: https://www.cancerresearchuk.org/about-cancer/find-a-clinical-trial/clinical-trials-search?search_api_aggregation_1=breast&f%5B0%5D=field_trial_status%3A4386\
+\
+Step1: Get URL & Set data & Set Driver \
+Step2: Navigate through HTML elements for Pagination (Click Next) \
+Step3: Within the pagination loop, click into each trial URL by linked text and extract important data fields of the subpages, such as Status, Supported By, Phase, Name, Page URL etc.\
+Step4: Load and save these data in Excel or CSV\
+\
+The loop is kept until all trial urls are extracted. \
+\
+There are currently some errors still yet to be fixed. The zip file includes various versions of the web-scraper that could be tested and improved. They shall all be tested before precession. \
+\
+\
+\
+\
+\
+}
